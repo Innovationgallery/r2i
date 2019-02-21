@@ -16,7 +16,10 @@ body{
   margin-right:auto;
   padding:1em;
 }
-
+img{
+  width:8%;
+  height:8%;
+}
 ul{
   list-style: none;
   padding:0;
