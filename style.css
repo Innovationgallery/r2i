@@ -17,8 +17,8 @@ body{
   padding:1em;
 }
 img{
-  width:8%;
-  height:8%;
+  width:12%;
+  height:12%;
 }
 ul{
   list-style: none;
@@ -95,7 +95,9 @@ a{
   outline:0;
   transition: background-color 2s ease-out;
 }
-
+footer{
+  text-align: center;
+}
 /* LARGE SCREENS */
 @media(min-width:700px){
   .wrapper{
@@ -106,7 +108,11 @@ a{
   .wrapper > *{
     padding:2em;
   }
+  img{
+    width:8%;
+    height: 8%;
 
+  }
   .company-info h3, .company-info ul, .brand{
     text-align: left;
   }
