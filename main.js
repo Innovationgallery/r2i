@@ -13,7 +13,7 @@
   firebase.initializeApp(config);
 
 var messagesRef = firebase.database().ref('messages');
-document.getElementById('contactForm').addEventListener('submit', 'submitForm');
+document.getElementById('contactForm').addEventListener('submit', submitForm);
 
 function submitForm(e){
   e.preventDefault();
@@ -48,7 +48,7 @@ return document.getElementById(id).value;
 function saveMessage(firstname, lastname, email, phone, message){
 var newMessageRef = messagesRef.push();
 newMessageRef.set({
-  name: firstname,
+  firstname: firstname,
   lastname: lastname,
   email:email,
   phone:phone,
