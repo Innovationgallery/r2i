@@ -5,6 +5,7 @@
 body{
   background:#fff0bc;
   color:#f05a28;
+  margin-top: -10px;
   line-height:1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding:1em;
@@ -17,8 +18,8 @@ body{
   padding:1em;
 }
 img{
-  width:14%;
-  height:14%;
+  width:17%;
+  height:17%;
 }
 ul{
   list-style: none;
